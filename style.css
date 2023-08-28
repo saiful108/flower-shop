@@ -1,0 +1,38 @@
+.main-body{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header{
+    /* width: 1920px; 
+   height: 800px; */
+   
+    background-color: #E554731A;
+   display: flex;
+   
+   align-items: center;
+
+}
+.header-box1{
+   padding-left: 100px;
+   padding-right: 100px;
+}
+.heading{
+    font-size: 50px;
+    font-weight: 700;
+}
+.sub-heading{
+    font-size: 18px;
+    font-weight: 400px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.header-flower{
+   height: 500px;
+}
+.header-btn{
+    margin-top: 10px;
+    padding:20px 43px ;
+    border-radius: 8px;
+background: #E55473;
+color: white;
+border: none;
+}
