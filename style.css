@@ -75,3 +75,22 @@ background: rgba(39, 39, 39, 0.05);
 .service{
     padding: 30px 60px;
 }
+
+/* hot deal */
+.hot-deal{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 100px;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+   
+}
+.top-image{
+    width: 318px;
+   
+}
+.deal{
+   
+}
