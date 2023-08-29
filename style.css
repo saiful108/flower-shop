@@ -1,131 +1,149 @@
-.main-body{
-   margin-left: 50px;
-   margin-right: 50px;
+.main-body {
+    margin-left: 50px;
+    margin-right: 50px;
 }
-.header{
+
+.header {
     /* width: 1920px; 
    height: 800px; */
-   
+
     background-color: #E554731A;
-   display: flex;
-   
-   align-items: center;
-   margin-bottom: 100px;
+    display: flex;
+
+    align-items: center;
+    margin-bottom: 100px;
 
 }
-.header-box1{
-   padding-left: 100px;
-   padding-right: 100px;
+
+.header-box1 {
+    padding-left: 100px;
+    padding-right: 100px;
 }
-.heading{
+
+.heading {
     font-size: 50px;
     font-weight: 700;
 }
-.sub-heading{
+
+.sub-heading {
     font-size: 18px;
     font-weight: 400px;
     color: rgba(39, 39, 39, 0.60);
 }
-.header-flower{
-   height: 500px;
+
+.header-flower {
+    height: 500px;
 }
-.header-btn{
+
+.header-btn {
     margin-top: 10px;
-    padding:20px 43px ;
+    padding: 20px 43px;
     border-radius: 8px;
-background: #E55473;
-color: white;
-border: none;
+    background: #E55473;
+    color: white;
+    border: none;
 }
 
 /* featured */
-.featured{
-    width: fit-content;
+.txt-center {
+    text-align: center;
 }
-.featured-flower{
-    margin-top: 100px;
+
+.featured {
     display: flex;
-    width: 100%;
-  
+    gap: 10px;
+    justify-content: center;
 }
-.featured-flower-1{
-   
- border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-padding: 0 70px;
-padding-top: 110px;
+
+.featured-img {
+    border-radius: 300px 300px 0px 0px;
+    padding: 100px 60px 0 60px;
+}
+
+.featured-img2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 100px 30px 60px 30px;
+}
+
+.featured-bg1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-bg3 {
+    background: rgba(71, 125, 17, 0.15);
 
 }
-.featured-sub-heading{
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-}
+
 
 
 /* service */
-.services{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 8px;
-background: rgba(39, 39, 39, 0.05);
-  
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+
 }
-.service{
+
+.service {
     padding: 30px 60px;
 }
 
 /* hot deal */
-.hot-deal{
+.hot-deal {
     margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px 100px;
     border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
-   
+    background: rgba(229, 84, 115, 0.05);
+
 }
-.top-image{
+
+.top-image {
     width: 318px;
-   
+
 }
-.images-box{
+
+.images-box {
     display: flex;
     justify-content: center;
-   
+
 }
-.image{
+
+.image {
     padding: 10px;
-   
+
 }
 
 /* subscribe */
-.subscribe{
+.subscribe {
     background-image: url("../../../../image/Rectangle 9.png");
-   margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
-.subscribe-heading{
+.subscribe-heading {
     text-align: center;
-    padding:80px   ;
+    padding: 80px;
 }
 
-.subscribe-latter{
+.subscribe-latter {
     display: flex;
     justify-content: center;
     gap: 10px;
     padding-bottom: 100px;
 }
 
-.mail{
+.mail {
     border: none;
     border-radius: 20px;
-   padding: 0 200px;
+    padding: 0 200px;
 }
 
-.footer{
+.footer {
     background-color: black;
     text-align: center;
     padding: 80px 0px;
